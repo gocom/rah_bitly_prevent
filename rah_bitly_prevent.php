@@ -4,9 +4,9 @@
  * This is an example plugin for rah_bitly. Showcases extending.
  *
  * @package rah_bitly
- * @author Jukka Svahn
+ * @author  Jukka Svahn
  * @license GNU GPLv2
- * @link https://github.com/gocom/rah_bitly
+ * @link    https://github.com/gocom/rah_bitly
  *
  * The plugin will prevent generating bitly links, and pinging bitly when
  * article's section is set to "private".
