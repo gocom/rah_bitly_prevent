@@ -41,7 +41,7 @@ class rah_bitly_prevent
 	}
  
  	/**
- 	 * Does validation prior to generating a new link
+ 	 * Does validation prior to generating a new link.
  	 */
 
 	public function filter()
