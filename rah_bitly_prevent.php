@@ -16,9 +16,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-	if(@txpinterface == 'admin') {
 		new rah_bitly__prevent();
-	}
 
 class rah_bitly__prevent {
 
