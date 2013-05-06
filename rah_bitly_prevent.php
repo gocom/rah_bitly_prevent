@@ -5,7 +5,6 @@
  *
  * @package rah_bitly
  * @author Jukka Svahn
- * @version 0.1
  * @link https://github.com/gocom/rah_bitly
  *
  * The plugin will prevent generating bitly links, and pinging bitly when
