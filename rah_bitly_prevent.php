@@ -37,9 +37,9 @@ class rah_bitly_prevent
 
 	public function install()
 	{
-		if (!in_array('rah_bitly_prevent_private', getThings('describe '.safe_pfx('txp_section'))))
+		if (!in_array('rah_bitly_prevent_publish', getThings('describe '.safe_pfx('txp_section'))))
 		{
-			safe_alter('txp_section', 'ADD rah_bitly_prevent_private TINYINT(1) NOT NULL DEFAULT 1');
+			safe_alter('txp_section', 'ADD rah_bitly_prevent_publish TINYINT(1) NOT NULL DEFAULT 1');
 		}
 	}
 
@@ -49,9 +49,9 @@ class rah_bitly_prevent
 
 	public function uninstall()
 	{
-		if (in_array('rah_bitly_prevent_private', getThings('describe '.safe_pfx('txp_section'))))
+		if (in_array('rah_bitly_prevent_publish', getThings('describe '.safe_pfx('txp_section'))))
 		{
-			safe_alter('txp_section', 'DROP COLUMN rah_bitly_prevent_private');
+			safe_alter('txp_section', 'DROP COLUMN rah_bitly_prevent_publish');
 		}
 	}
  
@@ -61,7 +61,7 @@ class rah_bitly_prevent
 
 	public function filter()
 	{
-		if (safe_field('rah_bitly_prevent_private', 'txp_section', "name = '".doSlash(ps('Section'))."'"))
+		if (safe_field('rah_bitly_prevent_publish', 'txp_section', "name = '".doSlash(ps('Section'))."'"))
 		{
 			rah_bitly::get()->permlink = false;
 		}
@@ -81,7 +81,7 @@ class rah_bitly_prevent
 	{
 		if ($r['name'] !== 'default')
 		{
-			return inputLabel('rah_bitly_prevent_private', yesnoradio('rah_bitly_prevent_private', !empty($r['rah_bitly_prevent_private']), '', ''), '', 'rah_bitly_prevent_private');
+			return inputLabel('rah_bitly_prevent_publish', yesnoradio('rah_bitly_prevent_publish', !empty($r['rah_bitly_prevent_publish']), '', ''), '', 'rah_bitly_prevent_publish');
 		}
 	}
 
@@ -93,7 +93,7 @@ class rah_bitly_prevent
 	{
 		safe_update(
 			'txp_section',
-			'rah_bitly_prevent_private = '.intval(ps('rah_bitly_prevent_private')),
+			'rah_bitly_prevent_publish = '.intval(ps('rah_bitly_prevent_publish')),
 			"name = '".doSlash(ps('name'))."'"
 		);
 	}
