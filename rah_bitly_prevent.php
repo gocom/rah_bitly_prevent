@@ -45,5 +45,3 @@ class rah_bitly__prevent {
 }
 
 new rah_bitly__prevent();
-
-?>
