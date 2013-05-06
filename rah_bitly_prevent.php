@@ -16,8 +16,6 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-		new rah_bitly__prevent();
-
 class rah_bitly__prevent {
 
 	protected $ignore_sections = array();
@@ -45,5 +43,7 @@ class rah_bitly__prevent {
 		}
 	}
 }
+
+new rah_bitly__prevent();
 
 ?>
