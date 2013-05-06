@@ -1,0 +1,23 @@
+{
+	"name": "rah/rah_bitly_prevent",
+	"description": "Prevent module for rah_bitly",
+	"keywords": ["textpattern", "rah_bitly", "plugin"],
+	"homepage": "https://github.com/gocom/rah_bitly_prevent",
+	"license": "GPL-2.0",
+	"type": "textpattern-plugin",
+	"authors": [
+		{
+			"name": "Jukka Svahn",
+			"homepage": "http://rahforum.biz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gocom/rah_bitly_prevent/issues",
+		"source": "https://github.com/gocom/rah_bitly_prevent"
+	},
+	"require": {
+		"textpattern/installer": "*",
+		"rah/rah_bitly": ">=0.4.1"
+	}
+}
