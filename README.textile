@@ -1,14 +1,16 @@
-h1. Prevent module for rah_bitly
+h1. rah_bitly_prevent
 
-p. "Packagist":https://packagist.org/packages/rah/rah_bitly_prevent | "rah_bitly":http://github.com/gocom/rah_bitly
+"Download":https://github.com/gocom/rah_bitly_prevent/releases | "Packagist":https://packagist.org/packages/rah/rah_bitly_prevent | "Issues":https://github.com/gocom/rah_bitly_prevent/issues
 
-p. This is an example plugin for rah_bitly showcasing extending. The plugin will prevent generating Bitly links for articles on section basis. The options can be set from Textpattern's native graphical Sections editor.
+This is an example plugin for "rah_bitly":https://github.com/gocom/rah_bitly showcasing extending. The plugin will prevent generating "Bitly":https://bitly.com links for articles on section basis. The options can be set from Textpattern CMS' graphical "Sections":https://docs.textpattern.com/administration/sections-panel panel.
 
-h2. Installing
+h2. Install
 
-p. Using "Composer":http://getcomposer.org:
+Using "Composer":https://getcomposer.org:
 
-bc. $ composer.phar require rah/rah_bitly_prevent
+bc. $ composer require rah/rah_bitly_prevent
+
+Or "download":https://github.com/gocom/rah_bitly_prevent/releases an installer package.
 
 h2. Changelog
 

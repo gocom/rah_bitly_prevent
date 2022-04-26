@@ -1,11 +1,15 @@
 {
-	"name"        : "rah_bitly_prevent",
-	"description" : "Prevent module for rah_bitly",
-	"version"     : "0.1.0",
-	"type"        : 4,
-	"author"      : "Jukka Svahn",
-	"author_uri"  : "https://github.com/gocom/rah_bitly_prevent",
-	"order"       : 5,
-	"flags"       : 2,
-	"help"        : {"file" : ["./README.textile"]}
+    "name": "rah_bitly_prevent",
+    "description": "Prevent module for rah_bitly",
+    "version": "0.1.0",
+    "type": 4,
+    "author": "Jukka Svahn",
+    "author_uri": "https://github.com/gocom/rah_bitly_prevent",
+    "order": 5,
+    "flags": 2,
+    "help": {"file" : ["./README.textile"]},
+    "code": {"file" : [
+        "./src/Rah/Bitly/Prevent.php",
+        "./src/Index.php"
+    ]}
 }
