@@ -2,7 +2,7 @@ h1. rah_bitly_prevent
 
 "Download":https://github.com/gocom/rah_bitly_prevent/releases | "Packagist":https://packagist.org/packages/rah/rah_bitly_prevent | "Issues":https://github.com/gocom/rah_bitly_prevent/issues
 
-This is an example plugin for "rah_bitly":https://github.com/gocom/rah_bitly showcasing extending. The plugin will prevent generating "Bitly":https://bitly.com links for articles on section basis. The options can be set from Textpattern CMS' graphical "Sections":https://docs.textpattern.com/administration/sections-panel panel.
+This is an example plugin for "rah_bitly":https://github.com/gocom/rah_bitly showcasing extending. The plugin will prevent generating "Bitly":https://bitly.com links for articles on section basis. Section's which articles will not be published to Bitly can be configured from "Textpattern CMS'":https://textpattern.com graphical "Sections":https://docs.textpattern.com/administration/sections-panel panel.
 
 h2. Install
 
