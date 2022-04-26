@@ -16,6 +16,6 @@ Or "download":https://github.com/gocom/rah_bitly_prevent/releases an installer p
 
 h2. Changelog
 
-h3. Version 0.1.0 - upcoming
+h3. Version 0.1.0 - 2022/04/26
 
 * Initial release.
