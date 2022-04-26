@@ -4,6 +4,8 @@ h1. rah_bitly_prevent
 
 This is an example plugin for "rah_bitly":https://github.com/gocom/rah_bitly showcasing extending. The plugin will prevent generating "Bitly":https://bitly.com links for articles on section basis. Section's which articles will not be published to Bitly can be configured from "Textpattern CMS'":https://textpattern.com graphical "Sections":https://docs.textpattern.com/administration/sections-panel panel.
 
+"!https://raw.githubusercontent.com/gocom/rah_bitly_prevent/screenshots/images/editor.png!":https://raw.githubusercontent.com/gocom/rah_bitly_prevent/screenshots/images/editor.png
+
 h2. Install
 
 Using "Composer":https://getcomposer.org:
