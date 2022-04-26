@@ -86,7 +86,7 @@ final class Rah_Bitly_Prevent
     {
         if ($r['name'] !== 'default') {
             return inputLabel(
-                'rah_bitly_prevent_allow_publish',
+                'rah_bitly_prevent_publish',
                 yesnoradio('rah_bitly_prevent_publish', $r['rah_bitly_prevent_publish'] ?? '0', '', ''),
                 '',
                 'rah_bitly_prevent_publish'
